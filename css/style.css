@@ -1,0 +1,16 @@
+body{
+    padding: 100px;
+    text-transform: capitalize;
+}
+input,button{
+    text-transform: capitalize;
+}
+.gap{
+    margin-top: 10px;
+}
+#login-area{
+    margin-top: 50px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 15px;
+}

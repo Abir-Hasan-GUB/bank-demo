@@ -1,5 +1,5 @@
 body{
-    padding: 100px;
+    padding:30px ;
     text-transform: capitalize;
 }
 input,button{
@@ -8,9 +8,27 @@ input,button{
 .gap{
     margin-top: 10px;
 }
-#login-area{
+.login-area{
     margin-top: 50px;
     padding: 40px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 15px;
+}
+#transaction-area{
+    display: none;
+}
+.status{
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balanced{
+    background-color: orange;
 }
